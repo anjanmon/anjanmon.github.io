@@ -1,0 +1,29 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: solana
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/dat_anjan
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/anjanmon
+    - icon: github
+      text: Github
+      href: https://github.com/anjanmon
+format:
+  html:
+    css: styles.css
+---
+
+About this blog
+
+Hi! I'm Anjan, a data scientist and Python developer exploring the space where code, experimentation, and communication meet.
+
+This blog is a place to:
+
+- Share technical write-ups and notes
+- Publish and document side projects
+- Track my learning journey across data science, software design, and ML
