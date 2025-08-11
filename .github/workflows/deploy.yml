@@ -1,11 +1,14 @@
 name: Deploy Quarto Blog
 
 on:
-  push:
-    branches: [dev]
+  pull_request:
+    types: [closed]
+    branches:
+      - master
 
 jobs:
   deploy:
+    if: github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'master' && github.event.pull_request.head.ref == 'dev'
     runs-on: ubuntu-latest
 
     permissions:
