@@ -51,6 +51,6 @@ So that was it, the fundamental reason why we use RMSE as the loss in Linear Reg
 
 
 
-
+Test push
 Notes - Experiment with MAE, show the convergence rate and the convergence path.
 
